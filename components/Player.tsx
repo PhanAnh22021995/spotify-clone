@@ -27,6 +27,10 @@ const Player = () => {
         )}
         <ForwardIcon className="icon" />
         <ArrowPathIcon className="icon" />
+        <ArrowPathIcon className="icon" />
+        <ArrowPathIcon className="icon" />
+        <ArrowPathIcon className="icon" />
+        <ArrowPathIcon className="icon" />
       </div>
 
       {/* Right */}
