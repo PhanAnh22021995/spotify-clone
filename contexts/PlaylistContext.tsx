@@ -43,7 +43,6 @@ const PlaylistContextProvider = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     const getUserPlaylists = async () => {
       const userPlaylistResponse = await spotifyApi.getUserPlaylists();
-      console.log(userPlaylistResponse.body.items);
       updatePlaylistContextState({
         playlists: userPlaylistResponse.body.items,
       });

@@ -5,6 +5,7 @@ import UserIcon from "../assets/user.png";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import { useEffect, useState } from "react";
 import { pickRandom } from "../utils/pickRandom";
+import Songs from "./Songs";
 
 const colors = [
   "from-indigo-500",
@@ -40,9 +41,10 @@ const Center = () => {
           <Image
             src={session?.user?.image || UserIcon}
             alt="user avatar"
-            height={40}
-            width={40}
+            height={40 || "auto"}
+            width={40 || "auto"}
             className="rounded-full object-cover"
+            priority
           />
           <h2>{session?.user?.name}</h2>
           <ChevronDownIcon className="icon" />
@@ -54,7 +56,7 @@ const Center = () => {
         {selectedPlaylist && (
           <>
             <Image
-              src={selectedPlaylist.images[0].url}
+              src={selectedPlaylist.images[0]?.url}
               alt={"Playlist Image"}
               height={176}
               width={176}
@@ -69,6 +71,10 @@ const Center = () => {
           </>
         )}
       </section>
+
+      <div>
+        <Songs />
+      </div>
     </div>
   );
 };

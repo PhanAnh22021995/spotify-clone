@@ -20,8 +20,6 @@ const Sidebar = () => {
     updatePlaylistContextState,
   } = usePlaylistContext();
 
-  console.log(playlists);
-
   const setSelectedPlaylist = async (playlistId: string) => {
     const playlistResponse = await spotifyApi.getPlaylist(playlistId);
     updatePlaylistContextState({
