@@ -26,16 +26,7 @@ const Player = () => {
           <PlayCircleIcon className="icon" />
         )}
         <ForwardIcon className="icon" />
-        <ForwardIcon className="icon" />
-        <ForwardIcon className="icon" />
-        <ForwardIcon className="icon" />
-        <ForwardIcon className="icon" />
-        <ForwardIcon className="icon" />
-        <ArrowPathIcon className="icon" />
-
-        <ArrowPathIcon className="icon" />
-        <ArrowPathIcon className="icon" />
-        <ArrowPathIcon className="icon" />
+        <h1>this is a test for git command</h1>
         <ArrowPathIcon className="icon" />
       </div>
 
