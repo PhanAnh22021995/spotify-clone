@@ -27,6 +27,7 @@ const Player = () => {
         )}
         <ForwardIcon className="icon" />
         <h1>this is a test for git command</h1>
+        <h1>this is a test for first git command</h1>
         <ArrowPathIcon className="icon" />
       </div>
 
