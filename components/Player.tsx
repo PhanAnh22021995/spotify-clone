@@ -26,7 +26,13 @@ const Player = () => {
           <PlayCircleIcon className="icon" />
         )}
         <ForwardIcon className="icon" />
+        <ForwardIcon className="icon" />
+        <ForwardIcon className="icon" />
+        <ForwardIcon className="icon" />
+        <ForwardIcon className="icon" />
+        <ForwardIcon className="icon" />
         <ArrowPathIcon className="icon" />
+
         <ArrowPathIcon className="icon" />
         <ArrowPathIcon className="icon" />
         <ArrowPathIcon className="icon" />
